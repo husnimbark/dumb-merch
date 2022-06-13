@@ -28,7 +28,7 @@ export default function Register(){
   
     return(
   <>
-    <div className="container">
+    <div className="container-sm">
       <div className="left-side">
         <img src={Logo} alt="logo-DumbMerch" />
 
