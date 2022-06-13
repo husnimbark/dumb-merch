@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url("/src/assets/avenir_ff/AvenirLTStd-Black.otf")
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("/src/assets/Roboto_fonts/Roboto-Thin.ttf")
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("/src/assets/bebasNeue_font/BebasNeue-Regular.ttf")
+}
+*{
+    font-family: 'Avenir';
+}
+/* LOGIN & REGISTER */
+.container .card {
+    position: absolute;
+    width: 416px;
+    height: 443px;
+    left: 851px;
+    top: 100px;
+    background: #181818;
+    border-radius: 10px;
+}
+#card{
+    position: absolute;
+    width: 416px;
+    height: 366px;
+    left: 851px;
+    top: 90px;
+    background: #181818;
+    border-radius: 10px;
+}
+
+.container .card p{
+    position: absolute;
+    width: 143px;
+    height: 49px;
+    left: 33px;
+    top: 41px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+#forName{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 119px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+#forMail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 189px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px
+
+}#forMail1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 120px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px
+}
+
+#forPassword{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 259px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+#forPassword1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 190px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.card form button{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 363px;
+    background: #F74D4D;
+    border-radius: 5px;
+}
+
+.container .left-side img{
+    position: absolute;
+    left: 7%;
+    right: 0%;
+    top: 10%;
+    bottom: 1.27%;
+    width: 264px;
+    height: 254px;
+}
+
+.left-side .forText h5{
+    position: absolute;
+    height: 76px;
+    left: 100px;
+    top: 350px;
+    font-size: 56px;
+    font-style: normal;
+    line-height: 76px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .left-side .forText p{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 105px;
+    top: 440px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6A6A6A;
+}
+.container .left-side button{
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 104px;
+    top: 560px;
+    background: #F74D4D;
+    border-radius: 5px;
+}
+
+#btn-register{
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 104px;
+    top: 560px;
+    background: #F74D4D;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .left-side a {
+    position: absolute;
+    width: 71px;
+    height: 25px;
+    left: 291px;
+    top: 567px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B7B7B7;
+    text-decoration: none;
+}
+
+#login-btn{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 33px;
+    top: 287px;
+    background: #F74D4D;
+    border-radius: 5px;
+}
+/* END LOGIN & REGISTER */
+/* NAVBAR USER & ADMIN*/
+.navbar .container-fluid img{
+    position: absolute;
+    left: 1.5%;
+    right: 0;
+    top:69.49%;
+    width: 70px;
+    height: 67.2px;
+}
+.navbar .container-fluid ul{
+    position: absolute;
+    height: 25px;
+    left: 58rem;
+    top: 37.5px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.navbar .container-fluid ul .me-4:hover{
+    color:#555
+}
+/* END NAVBAR */
+
+/* DETAILPAGE START */
+.container-fluid .row .col img{
+    margin: 107px 0px 95px 94px;
+    height: 555px;
+    width: 436px;
+}
+.container-fluid .row .col-6{
+    margin:92px 76px 75px 0px ;
+}
+.container-fluid .row .col-6 .content-body{
+    text-align: justify;
+    color:  #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;;
+    margin-top: 1.9rem;
+}
+.row .col-6 .content-bottom button{
+    display: block;
+    width: 617px;
+    height: 40px;
+    border-radius: 5px;
+}
+/* DETAILPAGE ENDS */
+
+/* PROFILE */
+.row .col img{
+    height:435px ;
+    width:338px ;
+    position: absolute;
+    left: 3.5rem;
+}
+.container .row .col {
+    margin: 3.7rem 0rem;
+}
+.container .row .d-block{
+    margin-right: 14rem;
+}
+#profile-left{
+    margin-top: 8.2rem;
+    margin-left: 0.8rem;
+}
+#cardProfil{
+    position: absolute;
+    width: 524px;
+    height: 145px;
+    left: 752px;
+    top: 158px;
+    background: #303030;
+}
+#mytrans{
+    position: absolute;
+    width: 172px;
+    height: 33px;
+    left: 751px;
+    top: 100px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F74D4D;
+}
+.card .card-body .col p{
+    font-size: 20px;
+    margin-left: 10rem;
+}
+#mouse-text{
+    position: absolute;
+    height: 19px;
+    left: -40px;
+    top: 0px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #F74D4D;
+}
+.card .card-body .col .fw-bold{
+    position: absolute;
+    width: 120px;
+    height: 12px;
+    left: -39px;
+    top: 48px;
+    font-size:12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #F74D4D;
+}
+#price{
+    position: absolute;
+    height: 14px;
+    left: -10rem;
+    top: 9px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+#subtotal{
+    position: absolute;
+    width: 910px;
+    height: 14px;
+    left: -2.4rem;
+    top: 7rem;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 14px;
+}
+/* END PROFILE */
+/* CATEGORY */
+.body-table .row-table td{
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+/* END CATEGORY */
+/* ABOUT US */
+#au1{
+    font-family: 'Bebas Neue';
+    color: #F74D4D;
+    font-size: 75px;
+}
+#au2{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 28rem;
+    margin-left: 18rem;
+}
+#au3{
+    color:white;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-style: italic;
+    width: 25rem;
+    font-size:22px
+}
+#au4{
+    position: absolute;
+    top: 56rem;
+    height:23rem
+}
+#au4 img{
+    width: 18rem;
+    position: absolute;
+    height: 16rem;
+    right:-1.4px
+}
+#au4 .card-body h5{
+    position: absolute;
+    font-family: 'Bebas Neue';
+    color: #F74D4D;
+    top: 17rem;
+    font-size: 42px;
+    left: 4rem;
+}
+#au4 .card-body p{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 0.5rem;
+    width: 17rem;
+    margin-top: 17rem;
+    position: absolute;
+}
+#au5{
+    margin-top: -2rem;
+}
+/* END ABOUT US */
+/* COMPLAIN PAGE */
+#com1{
+    height: 20vh;
+    width: 8rem
+}
+#com2{
+    height: 20vh;
+    width:8rem
+}
+#complain-user{
+    top: 6rem;
+    position: absolute;
+    width: 80rem;
+}
+#ver1{
+    border-left: 1px solid rgba(106, 106, 106, 0.3);
+    height: 100vh;
+    position: absolute;
+    left: 30rem;
+    top:-9rem
+}
+#com5{
+    margin-top: 26rem;
+    margin-left: 3rem;
+}
+#com5 .row .col input{
+    width: 43rem;
+    background: rgba(171, 171, 171, 0.15)
+}
+#com5 .row .col button{
+    width: 8rem;
+    position: absolute;
+}
+.chat-user{
+    height: 50px;
+    width: 26rem;
+    background-color: #575757;
+    position: absolute;
+    border-radius: 5px;
+    top: 23rem;
+    left: 39.2rem;
+}
+.triangle-left{
+	width: 10rem;
+	height: 7vh;
+    top: 23rem;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #575757;
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    left: 30rem;
+}
+.chat-user .hi{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+/* END COMPLAIN PAGE */
+/* HOME PAGE */
+#card-home{
+    margin-left: 3rem;
+    display: block;
+}
+#title-home{
+    position: absolute;
+    top: 6rem;
+}
+#row-home{
+    margin-top: 7.5rem;
+}
+/* END HOME */
